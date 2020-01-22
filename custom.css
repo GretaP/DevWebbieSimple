@@ -5,9 +5,18 @@
     background-size: cover;
     background-color: transparent;
     color: rgba(235, 239, 235, 0.91);
+    text-align: left;
 }
 
 .avie {
     border-radius: 50%;
     width: 80%;
+}
+
+header {
+    padding: 200px 0 100px;
+}
+
+section {
+    padding: 150px 0;
 }

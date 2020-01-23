@@ -20,3 +20,19 @@ header {
 section {
     padding: 150px 0;
 }
+
+p{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.material-icons {
+    padding: 0px 10px 0px 0px;
+    color: black;
+}
+
+
+.custom-icons {
+    height: 25px;
+    padding: 0px 10px 0px 0px;
+}

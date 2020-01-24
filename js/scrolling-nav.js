@@ -7,8 +7,8 @@
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
       if (target.length) {
-        $('html, body').animate({
-          scrollTop: (target.offset().top-55)
+        $("html, body").animate({
+          scrollTop: (target.offset().top-48)
         }, 1000, "easeInOutExpo");
         return false;
       }
@@ -21,7 +21,7 @@
   });
 
   // Activate scrollspy to add active class to navbar items on scroll
-  $('body').scrollspy({
+  $("body").scrollspy({
     target: '#mainNav',
     offset: 50
   });

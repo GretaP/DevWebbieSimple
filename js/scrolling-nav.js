@@ -27,3 +27,6 @@
   });
 
 })(jQuery); // End of use strict
+
+//original file: https://startbootstrap.com/template-overviews/scrolling-nav
+//edited to fix offset
